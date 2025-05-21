@@ -1,0 +1,65 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+build/
+client/build/
+dist/
+client/dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.* 
+
+# OS and Editor system files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+.idea/
+
+# Mac system files
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+client/coverage/
+server/coverage/
+
+# Local development files
+*.local
+*.log
+
+# Optional: Ignore SQLite or temporary DB files (if any)
+*.sqlite
+*.db
+
+# Ignore uploads or user-generated content (optional)
+uploads/
+public/uploads/
+
+# Optional: Ignore test snapshots
+__snapshots__/
+
+# Ignore compiled TypeScript files (if using TS)
+*.tsbuildinfo
+
+# Ignore frontend & backend lock files if you're not using them consistently
+# package-lock.json
+# yarn.lock
